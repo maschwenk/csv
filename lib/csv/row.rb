@@ -127,7 +127,6 @@ class CSV
     def has_key?(header)
       !!@row.assoc(header)
     end
-    alias_method :include?, :has_key?
     alias_method :key?,     :has_key?
     alias_method :member?,  :has_key?
 
